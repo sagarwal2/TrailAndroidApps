@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "D:\\SouravAgarwal\\Projects\\ABI\\TrailAndroidApps\\forcedroid\\libs\\SalesforceSDK\\build\\intermediates\\res\\merged\\release\\drawable-xlarge-v4\\sf__oauth_background.png",
+        "source": "D:\\SouravAgarwal\\Projects\\ABI\\TrailAndroidApps\\forcedroid\\libs\\SalesforceSDK\\res\\drawable-xlarge\\sf__oauth_background.png"
+    },
+    {
+        "merged": "D:\\SouravAgarwal\\Projects\\ABI\\TrailAndroidApps\\forcedroid\\libs\\SalesforceSDK\\build\\intermediates\\res\\merged\\release\\drawable-xlarge-v4\\sf__nav_shadow.png",
+        "source": "D:\\SouravAgarwal\\Projects\\ABI\\TrailAndroidApps\\forcedroid\\libs\\SalesforceSDK\\res\\drawable-xlarge\\sf__nav_shadow.png"
+    },
+    {
+        "merged": "D:\\SouravAgarwal\\Projects\\ABI\\TrailAndroidApps\\forcedroid\\libs\\SalesforceSDK\\build\\intermediates\\res\\merged\\release\\drawable-xlarge-v4\\sf__header_bg.png",
+        "source": "D:\\SouravAgarwal\\Projects\\ABI\\TrailAndroidApps\\forcedroid\\libs\\SalesforceSDK\\res\\drawable-xlarge\\sf__header_bg.png"
+    },
+    {
+        "merged": "D:\\SouravAgarwal\\Projects\\ABI\\TrailAndroidApps\\forcedroid\\libs\\SalesforceSDK\\build\\intermediates\\res\\merged\\release\\drawable-xlarge-v4\\sf__header_drop_shadow.xml",
+        "source": "D:\\SouravAgarwal\\Projects\\ABI\\TrailAndroidApps\\forcedroid\\libs\\SalesforceSDK\\res\\drawable-xlarge\\sf__header_drop_shadow.xml"
+    },
+    {
+        "merged": "D:\\SouravAgarwal\\Projects\\ABI\\TrailAndroidApps\\forcedroid\\libs\\SalesforceSDK\\build\\intermediates\\res\\merged\\release\\drawable-xlarge-v4\\sf__refresh_loader.png",
+        "source": "D:\\SouravAgarwal\\Projects\\ABI\\TrailAndroidApps\\forcedroid\\libs\\SalesforceSDK\\res\\drawable-xlarge\\sf__refresh_loader.png"
+    },
+    {
+        "merged": "D:\\SouravAgarwal\\Projects\\ABI\\TrailAndroidApps\\forcedroid\\libs\\SalesforceSDK\\build\\intermediates\\res\\merged\\release\\drawable-xlarge-v4\\sf__toolbar_background.xml",
+        "source": "D:\\SouravAgarwal\\Projects\\ABI\\TrailAndroidApps\\forcedroid\\libs\\SalesforceSDK\\res\\drawable-xlarge\\sf__toolbar_background.xml"
+    },
+    {
+        "merged": "D:\\SouravAgarwal\\Projects\\ABI\\TrailAndroidApps\\forcedroid\\libs\\SalesforceSDK\\build\\intermediates\\res\\merged\\release\\drawable-xlarge-v4\\sf__header_right_border.xml",
+        "source": "D:\\SouravAgarwal\\Projects\\ABI\\TrailAndroidApps\\forcedroid\\libs\\SalesforceSDK\\res\\drawable-xlarge\\sf__header_right_border.xml"
+    },
+    {
+        "merged": "D:\\SouravAgarwal\\Projects\\ABI\\TrailAndroidApps\\forcedroid\\libs\\SalesforceSDK\\build\\intermediates\\res\\merged\\release\\drawable-xlarge-v4\\sf__oauth_container_dropshadow.9.png",
+        "source": "D:\\SouravAgarwal\\Projects\\ABI\\TrailAndroidApps\\forcedroid\\libs\\SalesforceSDK\\res\\drawable-xlarge\\sf__oauth_container_dropshadow.9.png"
+    },
+    {
+        "merged": "D:\\SouravAgarwal\\Projects\\ABI\\TrailAndroidApps\\forcedroid\\libs\\SalesforceSDK\\build\\intermediates\\res\\merged\\release\\drawable-xlarge-v4\\sf__login_content_header.xml",
+        "source": "D:\\SouravAgarwal\\Projects\\ABI\\TrailAndroidApps\\forcedroid\\libs\\SalesforceSDK\\res\\drawable-xlarge\\sf__login_content_header.xml"
+    },
+    {
+        "merged": "D:\\SouravAgarwal\\Projects\\ABI\\TrailAndroidApps\\forcedroid\\libs\\SalesforceSDK\\build\\intermediates\\res\\merged\\release\\drawable-xlarge-v4\\sf__header_refresh.png",
+        "source": "D:\\SouravAgarwal\\Projects\\ABI\\TrailAndroidApps\\forcedroid\\libs\\SalesforceSDK\\res\\drawable-xlarge\\sf__header_refresh.png"
+    },
+    {
+        "merged": "D:\\SouravAgarwal\\Projects\\ABI\\TrailAndroidApps\\forcedroid\\libs\\SalesforceSDK\\build\\intermediates\\res\\merged\\release\\drawable-xlarge-v4\\sf__header_refresh_states.xml",
+        "source": "D:\\SouravAgarwal\\Projects\\ABI\\TrailAndroidApps\\forcedroid\\libs\\SalesforceSDK\\res\\drawable-xlarge\\sf__header_refresh_states.xml"
+    },
+    {
+        "merged": "D:\\SouravAgarwal\\Projects\\ABI\\TrailAndroidApps\\forcedroid\\libs\\SalesforceSDK\\build\\intermediates\\res\\merged\\release\\drawable-xlarge-v4\\sf__header_left_border.xml",
+        "source": "D:\\SouravAgarwal\\Projects\\ABI\\TrailAndroidApps\\forcedroid\\libs\\SalesforceSDK\\res\\drawable-xlarge\\sf__header_left_border.xml"
+    },
+    {
+        "merged": "D:\\SouravAgarwal\\Projects\\ABI\\TrailAndroidApps\\forcedroid\\libs\\SalesforceSDK\\build\\intermediates\\res\\merged\\release\\drawable-xlarge-v4\\sf__header_refresh_press.png",
+        "source": "D:\\SouravAgarwal\\Projects\\ABI\\TrailAndroidApps\\forcedroid\\libs\\SalesforceSDK\\res\\drawable-xlarge\\sf__header_refresh_press.png"
+    },
+    {
+        "merged": "D:\\SouravAgarwal\\Projects\\ABI\\TrailAndroidApps\\forcedroid\\libs\\SalesforceSDK\\build\\intermediates\\res\\merged\\release\\drawable-xlarge-v4\\sf__progress_spinner.xml",
+        "source": "D:\\SouravAgarwal\\Projects\\ABI\\TrailAndroidApps\\forcedroid\\libs\\SalesforceSDK\\res\\drawable-xlarge\\sf__progress_spinner.xml"
+    }
+]

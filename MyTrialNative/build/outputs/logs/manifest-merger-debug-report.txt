@@ -1,0 +1,274 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\AndroidManifest.xml:2:1-54:12
+	package
+		ADDED from D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\AndroidManifest.xml:3:5-34
+	android:versionName
+		ADDED from D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\AndroidManifest.xml:6:5-30
+		INJECTED from D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\AndroidManifest.xml
+		INJECTED from D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\AndroidManifest.xml
+	android:versionCode
+		ADDED from D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\AndroidManifest.xml:5:5-28
+		INJECTED from D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\AndroidManifest.xml
+		INJECTED from D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\AndroidManifest.xml:4:5-43
+uses-sdk
+ADDED from D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\AndroidManifest.xml:8:5-10:41
+MERGED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.4.0] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:23.4.0] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.4.0] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:23.4.0] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.4.0] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\design\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.4.0] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.4.0] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:23.4.0] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.4.0] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		ADDED from D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\AndroidManifest.xml:10:9-38
+	android:minSdkVersion
+		ADDED from D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\AndroidManifest.xml:9:9-35
+permission#com.mytrial.android.C2D_MESSAGE
+ADDED from D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\AndroidManifest.xml:17:5-19:47
+	android:protectionLevel
+		ADDED from D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\AndroidManifest.xml:19:9-44
+	android:name
+		ADDED from D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\AndroidManifest.xml:18:9-55
+uses-permission#com.mytrial.android.C2D_MESSAGE
+ADDED from D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\AndroidManifest.xml:21:5-71
+	android:name
+		ADDED from D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\AndroidManifest.xml:21:22-68
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\AndroidManifest.xml:23:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\AndroidManifest.xml:24:5-75
+	android:name
+		ADDED from D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\AndroidManifest.xml:24:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\AndroidManifest.xml:25:5-80
+	android:name
+		ADDED from D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\AndroidManifest.xml:25:22-77
+application
+ADDED from D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\AndroidManifest.xml:27:5-52:19
+MERGED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:23:5-103:19
+MERGED from [com.android.support:appcompat-v7:23.4.0] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.4.0] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.4.0] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\design\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.4.0] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\AndroidManifest.xml:30:9-41
+	android:manageSpaceActivity
+		ADDED from D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\AndroidManifest.xml:31:9-87
+	android:icon
+		ADDED from D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\AndroidManifest.xml:29:9-42
+	android:name
+		ADDED from D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\AndroidManifest.xml:28:9-41
+activity#com.mytrial.android.NavigationContainerActivity
+ADDED from D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\AndroidManifest.xml:44:9-51:20
+	android:screenOrientation
+		ADDED from D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\AndroidManifest.xml:45:13-49
+	android:theme
+		ADDED from D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\AndroidManifest.xml:46:13-56
+	android:name
+		ADDED from D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\AndroidManifest.xml:44:19-62
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\AndroidManifest.xml:47:13-50:29
+action#android.intent.action.MAIN
+ADDED from D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\AndroidManifest.xml:48:17-69
+	android:name
+		ADDED from D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\AndroidManifest.xml:48:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\AndroidManifest.xml:49:17-77
+	android:name
+		ADDED from D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\AndroidManifest.xml:49:27-74
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:11:22-76
+uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
+ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:12:22-77
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:13:5-71
+	android:name
+		ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:13:22-68
+uses-permission#android.permission.INTERNET
+ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:14:5-67
+	android:name
+		ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:14:22-64
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:15:5-74
+	android:name
+		ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:15:22-71
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:16:5-74
+	android:name
+		ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:16:22-71
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:17:5-68
+	android:name
+		ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:17:22-65
+uses-permission#android.permission.GET_TASKS
+ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:18:5-68
+	android:name
+		ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:18:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:19:5-82
+	android:name
+		ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:19:22-79
+uses-permission-sdk-23
+ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:21:5-81
+	android:name
+		ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:21:29-78
+meta-data#android.content.APP_RESTRICTIONS
+ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:26:9-28:56
+	android:resource
+		ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:28:13-53
+	android:name
+		ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:27:13-60
+service#com.salesforce.androidsdk.auth.AuthenticatorService
+ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:31:9-41:19
+	android:exported
+		ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:33:13-36
+	android:name
+		ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:32:13-79
+intent-filter#android.accounts.AccountAuthenticator
+ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:34:13-36:29
+action#android.accounts.AccountAuthenticator
+ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:35:17-80
+	android:name
+		ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:35:25-77
+meta-data#android.accounts.AccountAuthenticator
+ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:38:13-40:57
+	android:resource
+		ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:40:17-54
+	android:name
+		ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:39:17-69
+activity#com.salesforce.androidsdk.ui.LoginActivity
+ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:44:9-46:67
+	android:theme
+		ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:46:13-64
+	android:name
+		ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:45:13-70
+activity#com.salesforce.androidsdk.ui.PasscodeActivity
+ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:49:9-51:67
+	android:theme
+		ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:51:13-64
+	android:name
+		ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:50:13-73
+activity#com.salesforce.androidsdk.ui.ManageSpaceActivity
+ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:54:9-57:67
+	android:excludeFromRecents
+		ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:56:13-46
+	android:theme
+		ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:57:13-64
+	android:name
+		ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:55:13-76
+activity#com.salesforce.androidsdk.ui.ServerPickerActivity
+ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:60:9-63:67
+	android:excludeFromRecents
+		ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:62:13-46
+	android:theme
+		ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:63:13-64
+	android:name
+		ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:61:13-77
+activity#com.salesforce.androidsdk.ui.AccountSwitcherActivity
+ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:66:9-69:67
+	android:excludeFromRecents
+		ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:68:13-46
+	android:theme
+		ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:69:13-64
+	android:name
+		ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:67:13-80
+receiver#com.salesforce.androidsdk.push.PushBroadcastReceiver
+ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:75:9-89:20
+	android:exported
+		ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:77:13-36
+	android:permission
+		ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:78:13-73
+	android:name
+		ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:76:13-80
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:79:13-83:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:80:17-81
+	android:name
+		ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:80:25-78
+category#${applicationId}
+ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:82:17-61
+	android:name
+		ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:82:27-58
+intent-filter#${applicationId}+com.google.android.c2dm.intent.REGISTRATION
+ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:84:13-88:29
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:85:17-86
+	android:name
+		ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:85:25-83
+receiver#com.salesforce.androidsdk.push.PushService$RetryRegistrationAlarmReceiver
+ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:90:9-92:40
+	android:exported
+		ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:92:13-37
+	android:name
+		ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:91:13-101
+receiver#com.salesforce.androidsdk.push.PushService$SFDCRegistrationRetryAlarmReceiver
+ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:93:9-95:40
+	android:exported
+		ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:95:13-37
+	android:name
+		ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:94:13-105
+receiver#com.salesforce.androidsdk.push.PushService$UnregisterRetryAlarmReceiver
+ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:96:9-98:40
+	android:exported
+		ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:98:13-37
+	android:name
+		ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:97:13-99
+service#com.salesforce.androidsdk.push.PushService
+ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:100:9-102:40
+	android:exported
+		ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:102:13-37
+	android:name
+		ADDED from [TrailAndroidApps.forcedroid.libs:SalesforceSDK:unspecified] D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\TrailAndroidApps.forcedroid.libs\SalesforceSDK\unspecified\AndroidManifest.xml:101:13-70

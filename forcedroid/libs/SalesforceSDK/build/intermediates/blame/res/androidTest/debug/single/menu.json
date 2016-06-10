@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\SouravAgarwal\\Projects\\ABI\\TrailAndroidApps\\forcedroid\\libs\\SalesforceSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\menu\\sf__clear_custom_url.xml",
+        "source": "D:\\SouravAgarwal\\Projects\\ABI\\TrailAndroidApps\\forcedroid\\libs\\SalesforceSDK\\build\\intermediates\\bundles\\debug\\res\\menu\\sf__clear_custom_url.xml"
+    },
+    {
+        "merged": "D:\\SouravAgarwal\\Projects\\ABI\\TrailAndroidApps\\forcedroid\\libs\\SalesforceSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\menu\\sf__login.xml",
+        "source": "D:\\SouravAgarwal\\Projects\\ABI\\TrailAndroidApps\\forcedroid\\libs\\SalesforceSDK\\build\\intermediates\\bundles\\debug\\res\\menu\\sf__login.xml"
+    }
+]

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/dashboard_grp" >
+        <item
+            android:id="@+id/dashboard_item"
+            android:icon="@drawable/ic_dashboard"
+            android:title="@string/dashboard_text" />
+    </group>
+    <group android:id="@+id/leaderboard_grp">
+        <item
+            android:id="@+id/leaderboard_item"
+            android:icon="@drawable/ic_leaderboard"
+            android:title="@string/leaderboard_text" />
+    </group>
+    <group android:id="@+id/campaign_grp">
+        <item
+            android:id="@+id/campaign_item"
+            android:icon="@drawable/ic_campaign"
+            android:title="@string/campaigns_text" />
+    </group>
+    <group android:id="@+id/news_grp">
+        <item
+            android:id="@+id/news_item"
+            android:icon="@drawable/ic_news"
+            android:title="@string/news_text" />
+    </group>
+    <group android:id="@+id/announcements_grp">
+        <item
+            android:id="@+id/announcements_item"
+            android:icon="@drawable/ic_announcement"
+            android:title="@string/announcements_text" />
+    </group>
+    <group android:id="@+id/discussions_grp">
+        <item
+            android:id="@+id/discussions_item"
+            android:icon="@drawable/ic_discussion"
+            android:title="@string/discussions_text" />
+    </group>
+    <!--<group android:id="@+id/empty_grp">
+        <item android:id="@+id/empty_item"
+            android:title=""/>
+    </group>-->
+
+</menu>

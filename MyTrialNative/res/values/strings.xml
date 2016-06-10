@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="account_type">com.mytrial.android.login</string>
+    <string name="app_name"><b>MyTrialNative</b></string>
+    <string name="app_package">com.mytrial.android</string>
+    <string name="welcome">Welcome %s</string>
+    <string name="logout_button">Logout</string>
+    <string name="fetch_contacts_button">Fetch Contacts</string>
+    <string name="fetch_accounts_button">Fetch Accounts</string>
+    <string name="clear_button">Clear</string>
+    <string name="dashboard_text">Dashboard</string>
+    <string name="leaderboard_text">Leaderboard</string>
+    <string name="campaigns_text">Campaigns</string>
+    <string name="news_text">News</string>
+    <string name="announcements_text">Announcements</string>
+    <string name="discussions_text">Discussions</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>
