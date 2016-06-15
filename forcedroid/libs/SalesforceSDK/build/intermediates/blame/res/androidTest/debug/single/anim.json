@@ -20,12 +20,12 @@
         "source": "D:\\SouravAgarwal\\Projects\\ABI\\TrailAndroidApps\\forcedroid\\libs\\SalesforceSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },
     {
-        "merged": "D:\\SouravAgarwal\\Projects\\ABI\\TrailAndroidApps\\forcedroid\\libs\\SalesforceSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_in_bottom.xml",
-        "source": "D:\\SouravAgarwal\\Projects\\ABI\\TrailAndroidApps\\forcedroid\\libs\\SalesforceSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_slide_in_bottom.xml"
-    },
-    {
         "merged": "D:\\SouravAgarwal\\Projects\\ABI\\TrailAndroidApps\\forcedroid\\libs\\SalesforceSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_popup_enter.xml",
         "source": "D:\\SouravAgarwal\\Projects\\ABI\\TrailAndroidApps\\forcedroid\\libs\\SalesforceSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "D:\\SouravAgarwal\\Projects\\ABI\\TrailAndroidApps\\forcedroid\\libs\\SalesforceSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "D:\\SouravAgarwal\\Projects\\ABI\\TrailAndroidApps\\forcedroid\\libs\\SalesforceSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_slide_in_bottom.xml"
     },
     {
         "merged": "D:\\SouravAgarwal\\Projects\\ABI\\TrailAndroidApps\\forcedroid\\libs\\SalesforceSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_out.xml",

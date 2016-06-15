@@ -1,3 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_13390970159e0f801099a815f38618acac04f5a4\classes.dex" />
+    </item>
+    <item
+        jar="D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.4.0_cedf280b62f7b15d87a98abee3d860cbb2cacbfa\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\268526\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\18.0\cce0823396aa693798f8882e64213b1772032b09\guava-18.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="cce0823396aa693798f8882e64213b1772032b09">
+        <dex dex="D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\transforms\dex\debug\folders\1000\10\guava-18.0_072a81da9ee528ca78c41acbc63d0344cb4d40e7\classes.dex" />
+    </item>
+    <item
+        jar="D:\SouravAgarwal\android-sdk-windows\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_f988dbb6399679ec59d5056d12c3dc557e603fcf\classes.dex" />
+    </item>
+    <item
+        jar="D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="20809946278b5a6ee53548504d257299356ef0fc">
+        <dex dex="D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_07f03917cb82664c69e0a7392969be641dfd2bbe\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\268526\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpmime\4.3.2\3202421d9425ced69919b282afa644e7ef0e8fef\httpmime-4.3.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="3202421d9425ced69919b282afa644e7ef0e8fef">
+        <dex dex="D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\transforms\dex\debug\folders\1000\10\httpmime-4.3.2_ba272f78fa3d77bac3374fcc2a4121bd82367eae\classes.dex" />
+    </item>
+    <item
+        jar="D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="66b9f7150d49bb90d510109e856488cfd54a7a2f">
+        <dex dex="D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_dfa16eb691d4e2d6222920af6f1fcd9de88a0ea2\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\268526\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.7.0_85a142df2bac6ec98755fddc09eeb88457ebf9c0\classes.dex" />
+    </item>
+    <item
+        jar="D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_841105af055dc47add1228b571d6d93abb136ade\classes.dex" />
+    </item>
+    <item
+        jar="D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_8e1c14c0b4bd8f7abb2e0d6cc963e54ba7ef0bfb\classes.dex" />
+    </item>
+    <item
+        jar="D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_bb3555dc290012c8447adf1ab48db646afc8d93a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\268526\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.volley\library\1.0.19\a8f23f65fc1e522ee4a1a697ee569901a46741fa\library-1.0.19.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\transforms\dex\debug\folders\1000\10\library-1.0.19_2f4d940fcf4d102eed4945fd3964c3c76f4ca6a1\classes.dex" />
+    </item>
+    <item
+        jar="D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_689ea7bbc765d261c3346a25bc5687456d6ef0ff\classes.dex" />
+    </item>
+    <item
+        jar="D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="D:\SouravAgarwal\Projects\ABI\TrailAndroidApps\MyTrialNative\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.4.0_6abfc5a764207d43608ee2e7c3477aa12201e508\classes.dex" />
+    </item>
+
+</items>

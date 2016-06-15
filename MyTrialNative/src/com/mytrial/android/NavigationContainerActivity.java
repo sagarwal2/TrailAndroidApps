@@ -1,5 +1,6 @@
 package com.mytrial.android;
 
+import android.graphics.Bitmap;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
@@ -8,12 +9,16 @@ import android.support.v4.graphics.drawable.RoundedBitmapDrawableFactory;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.widget.Toolbar;
-import android.text.TextUtils;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.model.GlideUrl;
+import com.bumptech.glide.load.model.LazyHeaders;
+import com.bumptech.glide.request.animation.GlideAnimation;
+import com.bumptech.glide.request.target.SimpleTarget;
 import com.salesforce.androidsdk.app.SalesforceSDKManager;
 import com.salesforce.androidsdk.rest.RestClient;
 import com.salesforce.androidsdk.rest.RestRequest;
@@ -28,6 +33,8 @@ import java.net.HttpURLConnection;
 
 public class NavigationContainerActivity extends SalesforceActivity implements NavigationView.OnNavigationItemSelectedListener {
 
+    private final String AUTHORIZATION_HEADER = "Authorization";
+    private final String BEARER_TOKEN = "Bearer %s";
     private RestClient client;
     private RoundedBitmapDrawable roundedBitmapDrawable;
 
@@ -35,50 +42,41 @@ public class NavigationContainerActivity extends SalesforceActivity implements N
     public void onResume(final RestClient client) {
         // Keeping reference to rest client
         this.client = client;
-        if(!TextUtils.isEmpty(client.getClientInfo().thumbnailUrl)) {
-            System.out.println(client.getClientInfo().thumbnailUrl + "?oauth_token=" + client.getAuthToken());
-//            new DownloadImageTask().execute(client.getClientInfo().thumbnailUrl);
 
-            /*RestRequest restRequest = new RestRequest(RestRequest.RestMethod.GET, client.getClientInfo().thumbnailUrl, null);
-            client.sendAsync(restRequest, new RestClient.AsyncRequestCallback() {
-                @Override
-                public void onSuccess(RestRequest request, RestResponse response) {
-                    System.out.println(request);
-                    System.out.println(response);
-                }
+        try {
+            sendRequest("SELECT Email,Id,Name,FullPhotoUrl FROM User WHERE Id = '" + client.getClientInfo().userId + "'",
+                    new DefaultAsyncResultCallback() {
+                        @Override
+                        public void onSuccess(RestRequest request, RestResponse response) {
+                            try {
+                                JSONArray records = response.asJSONObject().getJSONArray("records");
+                                final String photoUrl = records.getJSONObject(0).getString("FullPhotoUrl");
 
-                @Override
-                public void onError(Exception exception) {
-                    Log.e("photo download", "Error", exception);
-                }
-            });*/
+                                GlideUrl glideUrl = new GlideUrl(photoUrl, new LazyHeaders.Builder()
+                                        .addHeader(AUTHORIZATION_HEADER, String.format(BEARER_TOKEN, client.getAuthToken()))
+                                        .build());
 
-            try {
-                sendRequest("SELECT Email,Id,Name,FullPhotoUrl FROM User WHERE Id = '" + client.getClientInfo().userId + "'",
-                        new DefaultAsyncResultCallback() {
-                            @Override
-                            public void onSuccess(RestRequest request, RestResponse response) {
-                                try {
-                                    JSONArray records = response.asJSONObject().getJSONArray("records");
-                                    final String smallPhotoUrl = records.getJSONObject(0).getString("FullPhotoUrl");
-                                    /*RestRequest restRequest = new RestRequest(RestRequest.RestMethod.GET, smallPhotoUrl, null);
-                                    client.sendAsync(restRequest, new DefaultAsyncResultCallback() {
-                                        @Override
-                                        public void onSuccess(RestRequest request, RestResponse response) {
+                                Glide
+                                        .with(NavigationContainerActivity.this)
+                                        .load(glideUrl)
+                                        .asBitmap()
+                                        .into(new SimpleTarget<Bitmap>() {
+                                            @Override
+                                            public void onResourceReady(Bitmap resource, GlideAnimation<? super Bitmap> glideAnimation) {
+                                                roundedBitmapDrawable = RoundedBitmapDrawableFactory.create(getResources(), resource);
+                                                roundedBitmapDrawable.setCircular(true);
+                                                invalidateOptionsMenu();
+                                            }
+                                        });
 
-                                        }
-                                    });*/
-                                    new DownloadImageTask().execute(smallPhotoUrl);
-                                } catch (Exception e) {
-                                    onError(e);
-                                }
+//                                    new DownloadImageTask().execute(photoUrl);
+                            } catch (Exception e) {
+                                onError(e);
                             }
-                        });
-            } catch (UnsupportedEncodingException e) {
-                e.printStackTrace();
-            }
-
-
+                        }
+                    });
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
         }
 
     }
@@ -120,10 +118,16 @@ public class NavigationContainerActivity extends SalesforceActivity implements N
     @Override
     public boolean onPrepareOptionsMenu(Menu menu) {
         final MenuItem item = menu.findItem(R.id.action_profile);
-        if(roundedBitmapDrawable != null) {
+        if (roundedBitmapDrawable != null) {
             item.setIcon(roundedBitmapDrawable);
         }
         return super.onPrepareOptionsMenu(menu);
+    }
+
+    private void sendRequest(String soql, RestClient.AsyncRequestCallback callback) throws UnsupportedEncodingException {
+        RestRequest restRequest = RestRequest.getRequestForQuery(getString(R.string.api_version), soql);
+
+        client.sendAsync(restRequest, callback);
     }
 
     private class DownloadImageTask extends AsyncTask<String, Void, Boolean> {
@@ -131,19 +135,12 @@ public class NavigationContainerActivity extends SalesforceActivity implements N
         protected Boolean doInBackground(String... urls) {
             String urldisplay = urls[0];
             try {
-
-
                 java.net.URL url = new java.net.URL(urldisplay);
                 HttpURLConnection connection = (HttpURLConnection) url.openConnection();
-                connection.setRequestProperty("Authorization", "Bearer " + client.getAuthToken());
+                connection.setRequestProperty(AUTHORIZATION_HEADER, "Bearer " + client.getAuthToken());
                 connection.setDoInput(true);
                 connection.connect();
                 InputStream input = connection.getInputStream();
-//                Bitmap myBitmap = BitmapFactory.decodeStream(input);
-//                return myBitmap;
-
-
-//                InputStream in = new java.net.URL(urldisplay).openStream();
                 roundedBitmapDrawable = RoundedBitmapDrawableFactory.create(getResources(), input);
                 roundedBitmapDrawable.setCircular(true);
                 return true;
@@ -156,14 +153,8 @@ public class NavigationContainerActivity extends SalesforceActivity implements N
 
         @Override
         protected void onPostExecute(Boolean aBoolean) {
-            if(aBoolean) invalidateOptionsMenu();
+            if (aBoolean) invalidateOptionsMenu();
         }
-    }
-
-    private void sendRequest(String soql, RestClient.AsyncRequestCallback callback) throws UnsupportedEncodingException {
-        RestRequest restRequest = RestRequest.getRequestForQuery(getString(R.string.api_version), soql);
-
-        client.sendAsync(restRequest, callback);
     }
 
     private abstract class DefaultAsyncResultCallback implements RestClient.AsyncRequestCallback {
@@ -171,23 +162,12 @@ public class NavigationContainerActivity extends SalesforceActivity implements N
         @Override
         public abstract void onSuccess(RestRequest request, RestResponse response);
 
-            /*public void onSuccess(RestRequest request, RestResponse result) {
-                try {
-                    JSONArray records = result.asJSONObject().getJSONArray("records");
-                    listAdapter.add(records.getJSONObject(0).getString("Name"));
-                    System.out.println(result.asString());
-                } catch (Exception e) {
-                    onError(e);
-                }
-
-            }*/
-
-            @Override
-            public void onError(Exception exception) {
-                Toast.makeText(NavigationContainerActivity.this,
-                        NavigationContainerActivity.this.getString(SalesforceSDKManager.getInstance().getSalesforceR().stringGenericError(), exception.toString()),
-                        Toast.LENGTH_LONG).show();
-            }
+        @Override
+        public void onError(Exception exception) {
+            Toast.makeText(NavigationContainerActivity.this,
+                    NavigationContainerActivity.this.getString(SalesforceSDKManager.getInstance().getSalesforceR().stringGenericError(), exception.toString()),
+                    Toast.LENGTH_LONG).show();
+        }
     }
 
 }

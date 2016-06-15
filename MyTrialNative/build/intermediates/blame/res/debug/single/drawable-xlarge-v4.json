@@ -12,12 +12,12 @@
         "source": "D:\\SouravAgarwal\\Projects\\ABI\\TrailAndroidApps\\MyTrialNative\\build\\intermediates\\exploded-aar\\TrailAndroidApps.forcedroid.libs\\SalesforceSDK\\unspecified\\res\\drawable-xlarge-v4\\sf__header_drop_shadow.xml"
     },
     {
-        "merged": "D:\\SouravAgarwal\\Projects\\ABI\\TrailAndroidApps\\MyTrialNative\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge-v4\\sf__header_bg.png",
-        "source": "D:\\SouravAgarwal\\Projects\\ABI\\TrailAndroidApps\\MyTrialNative\\build\\intermediates\\exploded-aar\\TrailAndroidApps.forcedroid.libs\\SalesforceSDK\\unspecified\\res\\drawable-xlarge-v4\\sf__header_bg.png"
-    },
-    {
         "merged": "D:\\SouravAgarwal\\Projects\\ABI\\TrailAndroidApps\\MyTrialNative\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge-v4\\sf__login_content_header.xml",
         "source": "D:\\SouravAgarwal\\Projects\\ABI\\TrailAndroidApps\\MyTrialNative\\build\\intermediates\\exploded-aar\\TrailAndroidApps.forcedroid.libs\\SalesforceSDK\\unspecified\\res\\drawable-xlarge-v4\\sf__login_content_header.xml"
+    },
+    {
+        "merged": "D:\\SouravAgarwal\\Projects\\ABI\\TrailAndroidApps\\MyTrialNative\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge-v4\\sf__header_bg.png",
+        "source": "D:\\SouravAgarwal\\Projects\\ABI\\TrailAndroidApps\\MyTrialNative\\build\\intermediates\\exploded-aar\\TrailAndroidApps.forcedroid.libs\\SalesforceSDK\\unspecified\\res\\drawable-xlarge-v4\\sf__header_bg.png"
     },
     {
         "merged": "D:\\SouravAgarwal\\Projects\\ABI\\TrailAndroidApps\\MyTrialNative\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge-v4\\sf__header_refresh_states.xml",
